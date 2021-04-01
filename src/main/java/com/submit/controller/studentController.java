@@ -44,7 +44,7 @@ public class studentController {
                 model.addAttribute(student);
             } else {
                 studentMapper.updatepassword(username, newpassword);
-                model.addAttribute("msg", "小老弟，密码已成功修改，别忘啦！");
+                model.addAttribute("msg", "密码已成功修改");
                 model.addAttribute(student);
             }
 

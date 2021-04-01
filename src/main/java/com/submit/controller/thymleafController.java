@@ -97,5 +97,14 @@ public class thymleafController {
         return "teacher/editeachclass";
     }
 
+//    @GetMapping("lessonaddstudent")
+//    public String lessonaddstudent(String teachclassid,HttpServletRequest request,Model model)
+//    {
+//        List<teachclass> teachclasslist=teacherService.getteachcassbyteacherid(teachclassid);
+//        model.addAttribute("lesson",teachclasslist);
+//        List<student>list= studentMapper.getall();
+//        model.addAttribute("list",list);
+//        return "teacher/lessonaddstudent";
+//    }
 
 }

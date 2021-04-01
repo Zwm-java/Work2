@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>添加学生(学科)</title>
@@ -16,34 +16,21 @@
             <!--</header>&lt;!&ndash; /header &ndash;&gt;-->
         </blockquote>
         <form class="layui-form col-lg-5 " action="" method="get" lay-filter="form">
-
             <div class="layui-form-item">
                 <div class="layui-inline">
                     <label class="layui-form-label">科目类别：</label>
                     <div class="layui-input-block">
                         <select name="lesson"  id="lesson" lay-filter="lessonname">
-                            <option  value="" ></option>
+                            <option value="" ></option>
                         </select>
                     </div>
                 </div>
             </div>
-<!--            <div class="layui-form-item">-->
-<!--                <div class="layui-inline">-->
-<!--                    <label class="layui-form-label">添加方式：</label>-->
-<!--                    <div class="layui-input-block">-->
-<!--                        <select name="type"  id="type" lay-filter="type">-->
-<!--                            <option  value="oneinsert" >单个插入</option>-->
-<!--                            <option  value="moreinsert">批量插入</option>-->
-<!--                        </select>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
             <div class="layui-form-item">
                 <label class="layui-form-label">插入方式：</label>
                 <div class="layui-input-block">
                     <input type="radio"  name="type" value="one" lay-filter="type" title="单个插入" checked="" >
                     <input type="radio"  name="type" value="more" lay-filter="type" title="批量导入">
-
                 </div>
             </div>
             <div class="layui-form-item" id="oneadd"  >
@@ -80,7 +67,6 @@
                         <input type="text" name="startno"  autocomplete="off" class="layui-input">
                     </div>
                 </div>
-
             </div>
             <div class="layui-form-item">
                 <div class="layui-input-block">
@@ -88,15 +74,16 @@
                     <button type="reset" class="layui-btn layui-btn-primary">重置</button>
                 </div>
             </div>
-
         </form>
 
-        <div class="larry-personal-body clearfix">
-<!--            UI填充造成视觉的效果！-->
+        <div class="larry-personal">
+            <div class="larry-personal-body clearfix">
+            </div>
+            <div class="larry-personal-body clearfix">
+                <table class="layui-hide"  id="demo" lay-filter="demo"></table>
+            </div>
         </div>
-        <div class="larry-personal-body clearfix">
-            <table class="layui-hide"  id="demo" lay-filter="demo"></table>
-        </div>
+
     </div>
 </section>
 
