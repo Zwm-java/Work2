@@ -12,7 +12,6 @@ import java.util.Map;
 
 /**
  * Shiro的配置类
- * @author lenovo
  *
  */
 @Configuration

@@ -19,7 +19,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * 自定义Realm
- * @author lenovo
  *
  */
 public class UserRealm extends AuthorizingRealm{
