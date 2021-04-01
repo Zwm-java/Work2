@@ -1,0 +1,23 @@
+2021-03-31 19:09:10.362 [restartedMain] DEBUG com.submit.WorkuploadApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2021-03-31 19:30:07.961 [restartedMain] DEBUG com.submit.WorkuploadApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2021-03-31 19:30:34.866 [http-nio-8080-exec-1] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2021-03-31 19:30:34.951 [http-nio-8080-exec-1] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: Teacher(String)
+2021-03-31 19:30:34.969 [http-nio-8080-exec-1] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 0
+2021-03-31 19:30:55.405 [http-nio-8080-exec-2] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2021-03-31 19:30:55.406 [http-nio-8080-exec-2] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: Teacher(String)
+2021-03-31 19:30:55.407 [http-nio-8080-exec-2] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 0
+2021-03-31 19:31:06.289 [http-nio-8080-exec-5] DEBUG com.submit.dao.studentMapper.selectByPrimaryKey - ==>  Preparing: select studentno, name, pinyin, password from student where studentno = ? 
+2021-03-31 19:31:06.290 [http-nio-8080-exec-5] DEBUG com.submit.dao.studentMapper.selectByPrimaryKey - ==> Parameters: 100(String)
+2021-03-31 19:31:06.291 [http-nio-8080-exec-5] DEBUG com.submit.dao.studentMapper.selectByPrimaryKey - <==      Total: 0
+2021-03-31 19:37:07.132 [restartedMain] DEBUG com.submit.WorkuploadApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-03-31 19:37:23.062 [http-nio-8080-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2021-03-31 19:37:23.141 [http-nio-8080-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: Teacher(String)
+2021-03-31 19:37:23.158 [http-nio-8080-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 0
+2021-03-31 19:43:21.112 [restartedMain] DEBUG com.submit.WorkuploadApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-03-31 19:43:41.451 [http-nio-8080-exec-3] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2021-03-31 19:43:41.515 [http-nio-8080-exec-3] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: Teacher(String)
+2021-03-31 19:43:41.532 [http-nio-8080-exec-3] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 0
+2021-03-31 19:43:58.104 [http-nio-8080-exec-1] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2021-03-31 19:43:58.104 [http-nio-8080-exec-1] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: user1(String)
+2021-03-31 19:43:58.106 [http-nio-8080-exec-1] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 0
+2021-03-31 19:55:09.532 [restartedMain] DEBUG com.submit.WorkuploadApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
