@@ -195,7 +195,7 @@ public class teacherService {
         studentclass studentclass = new studentclass();
         int succuss = 0;
         int fail = 0;
-        int startnum = Integer.parseInt(startno);
+        int startnum = Integer.parseInt(startno.trim());
         long startstudentid = Long.parseLong(startid);
         long endstudentid = Long.parseLong(endid);
 

@@ -22,33 +22,32 @@ public class teacherJobController {
 
     @ResponseBody
     @GetMapping("getjobbyteachclaid")
-    public List<job> getjobbyteachclaid(String teacherclaid, HttpServletRequest request) {
+    public List<job> getjobbyteachclaid(int teacherclaid, HttpServletRequest request) {
         try {
-            return teacherService.getjobbyteachclaid(Integer.parseInt(teacherclaid));
+            return teacherService.getjobbyteachclaid(teacherclaid);
         } catch (Exception e) {
             e.printStackTrace();
             return null;
         }
     }
 
-//    @ResponseBody
-//    @GetMapping("getjobbyteachclaid2")
-//    public Map<String, Object> getjobbyteachclaid2(String teacherclaid, HttpServletRequest request)//给表格用
-//    {
-//        List<job> list ;
-//        Map<String, Object> map = null;
-//        try {
-//            list = teacherService.getjobbyteachclaid(Integer.parseInt(teacherclaid.trim()));
-//            map = new ConcurrentHashMap<>();
-//            map.put("code", "0");
-//            map.put("count", list.size());
-//            map.put("data", list);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//
-//        return map;
-//    }
+    @ResponseBody
+    @GetMapping("getjobbyteachclaid2")
+    public Map<String, Object> getjobbyteachclaid2(int teacherclaid, HttpServletRequest request)//给表格用
+    {
+        List<job> list ;
+        Map<String, Object> map = null;
+        try {
+            list = teacherService.getjobbyteachclaid(teacherclaid);
+            map = new ConcurrentHashMap<>();
+            map.put("code", "0");
+            map.put("count", list.size());
+            map.put("data", list);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return map;
+    }
 
     @ResponseBody
     @PostMapping("addjob")

@@ -115,7 +115,7 @@
 
 
     });
-//从名单上删除这个小孩
+//从名单上删除这个学生
     function deleteinfo(obj) {
         var obje=$(obj).attr('stuclaid');
         $.ajax({
@@ -164,7 +164,7 @@
     }
     //真的添加？
     function alertcheckadd(obj) {
-        layer.confirm('真的添加课程么', function(index){
+        layer.confirm('确认添加吗？', function(index){
             addinfo(obj);
             layer.close(index);
             //向服务端发送删除指令
@@ -172,7 +172,7 @@
     }
     //真的删除？
     function alertcheckdelete(obj) {
-        layer.confirm('真的删除行么', function(index){
+        layer.confirm('确认删除吗？', function(index){
            deleteinfo(obj);
             layer.close(index);
             //向服务端发送删除指令

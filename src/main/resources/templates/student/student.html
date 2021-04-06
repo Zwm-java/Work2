@@ -14,29 +14,20 @@
         <!-- 头部区域（可配合layui已有的水平导航） -->
         <ul class="layui-nav layui-layout-left">
             <li class="layui-nav-item"></li>
-
         </ul>
         <ul class="layui-nav layui-layout-right">
-            <!--个人消息提醒-->
-<!--            <li class="layui-nav-item">-->
-<!--                &lt;!&ndash;<button data-method="notice" id="test8" class="layui-btn">消息提醒</button>&ndash;&gt;-->
-<!--                <a data-method="notice"  id="test8">消息提醒<span class="layui-badge-dot"></span></a>-->
-<!--                &lt;!&ndash;<button data-method="notice" class="layui-btn">消息提醒<span class="layui-badge-dot"></span></button>&ndash;&gt;-->
-<!--            </li>-->
             <li class="layui-nav-item">
                 <a href="javascript:;" th:text="${studentid}">
                     <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
-                    贤心
                 </a>
                 <!--<dl class="layui-nav-child">-->
                     <!--<dd><a href="">基本资料</a></dd>-->
                     <!--<dd><a href="">安全设置</a></dd>-->
                 <!--</dl>-->
             </li>
-            <li class="layui-nav-item"><a href="login.html">退了</a></li>
+            <li class="layui-nav-item"><a href="login.html">注销</a></li>
         </ul>
     </div>
-
     <div class="layui-side layui-bg-black">
         <div class="layui-side-scroll">
             <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
@@ -94,23 +85,7 @@
 
     <div class="layui-body">
         <!-- 内容主体区域 -->
-        <iframe src="index.html" name="container" width="100%" height="100%"></iframe>
-        <!--<div class="layui-tab" lay-allowClose="true">-->
-            <!--&lt;!&ndash;<ul class="layui-tab-title">&ndash;&gt;-->
-                <!--&lt;!&ndash;<li class="layui-this">网站设置</li>&ndash;&gt;-->
-                <!--&lt;!&ndash;<li>用户基本管理</li>&ndash;&gt;-->
-                <!--&lt;!&ndash;<li>权限分配</li>&ndash;&gt;-->
-                <!--&lt;!&ndash;<li>全部历史商品管理文字长一点试试</li>&ndash;&gt;-->
-                <!--&lt;!&ndash;<li>订单管理</li>&ndash;&gt;-->
-            <!--&lt;!&ndash;</ul>&ndash;&gt;-->
-            <!--<iframe src="index2.html" name="container" width="100%" height="100%"></iframe>-->
-        <!--</div>-->
-
-
-
-        <!--<iframe src="index2.html" name="container" width="100%" height="100%"></iframe>-->
-
-
+        <iframe name="container" width="100%" height="100%"></iframe>
     </div>
 
 </div>
